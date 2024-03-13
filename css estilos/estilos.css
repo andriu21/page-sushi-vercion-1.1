@@ -1,0 +1,43 @@
+* {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  resize: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  font-size: 65.7%;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html::-webkit-scrollbar-track {
+  display: none;
+
+}
+
+html::-webkit-scrollbar-thumb {
+  display: none;
+
+}
+
+
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}

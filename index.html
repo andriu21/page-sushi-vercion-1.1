@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Codeag21</title>
+  <meta name="author" content="Andriu Gudiño CODEAG21">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Card Presentation">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css estilos/normalize.css">
+  <link rel="stylesheet" href="css estilos/estilos2.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="imagenes/logo.png" alt="logode empresa">
+        Sushi
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About us</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#popular" class="nav__link">Popular</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#recently" class="nav__link">Recently</a>
+          </li>
+
+        </ul>
+
+        <!-- close nuton -->
+        <div class="nav__close" id="nav-close">
+          <i class="fa fa-times"></i>
+        </div>
+
+        <img src="imagenes/leaf-branch-4.png" alt="nav image" class="nav__img-1">  
+        <img src="imagenes/leaf-branch-3.png" alt="nav image" class="nav__img-2">
+      </div>
+
+      <div class="nav__buttons">
+        <!-- theme change button -->
+        <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+        <!-- toggle button -->
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+
+  <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="imagenes/home-sushi-rolls.png" alt="sushi roll" class="home__img">
+
+          <div class="home__data">
+            <h1 class="home__title">Enjoy Delicious
+                 <div>
+              <img src="imagenes/home-sushi-title.png" alt="home title"> Sushi Food
+            </div>
+            </h1>
+
+           <p class="home__description">
+             Enjoy a good dinner with the best dishes in the restaurant and improve  your day.
+           </p>
+            <a href="#" class="button">
+              Order now
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <img src="imagenes/leaf-branch-2.png" alt="home" class="home__leaf-1">
+
+        <img src="imagenes/leaf-branch-4.png" alt="home" class="home__leaf-2">
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <span class="section__subtitle">About Us</span>
+            <h2 class="section__title about__title">
+              <div>
+                We Provide <img src="imagenes/about-sushi-title.png" alt="about image">
+              </div>  Healthy Food
+            </h2>
+
+            <p class="about__description">
+              Food comes to us from relatives, whether they have wings or roots. This is how we consider food,
+              It also has a cultuer. It has a history that passes from geneation to generation.
+            </p>
+          </div>
+          <img src="imagenes/about-sushi.png" alt="sushi" class="about__img">
+        </div>
+
+        <img src="imagenes/leaf-branch-1.png" alt="" class="about__leaf">
+      </section>
+
+      <section class="popular section" id="popular">
+         <span class="section__subtitle">The Best  Food</span>
+         <h2 class="section__title">Popular Dishes</h2>
+
+         <div class="popular__container container grid">
+
+           <article class="popular__card">
+             <img src="imagenes/popular-onigiri.png" alt="onigiri" class="popular__img">
+
+             <h3 class="popular__name">Onigiri</h3>
+             <span class="popular__description">Japanese Dishes</span>
+
+             <span class="popular__price">19.99$</span>
+
+             <button class="popular__button">
+               <i class="fas fa-shopping-bag"></i>
+             </button>
+           </article>
+
+           <article class="popular__card">
+            <img src="imagenes/popular-spring-rols.png" alt="onigiri" class="popular__img">
+
+            <h3 class="popular__name">Spring rolls</h3>
+            <span class="popular__description">Japanese Dishes</span>
+
+            <span class="popular__price">15.99$</span>
+
+            <button class="popular__button">
+              <i class="fas fa-shopping-bag"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <img src="imagenes/popular-sushi-rolls.png" alt="onigiri" class="popular__img">
+
+            <h3 class="popular__name">Sushi rolls</h3>
+            <span class="popular__description">Japanese Dishes</span>
+
+            <span class="popular__price">19.99$</span>
+
+            <button class="popular__button">
+              <i class="fas fa-shopping-bag"></i>
+            </button>
+          </article>
+
+         </div>
+      </section>}
+
+      <section class="recently section" id="recently">
+        <div class="recently__container container grid">
+          <div class="recently__data">
+            <span class="section__subtitle">Recently Added</span>
+            <h2 class="section__title"> 
+              Sushi Samurai <br>
+              Salmón Cheese
+            </h2>
+
+            <p class="recently__description">
+              Take a look at what´snew. And don´t deprive
+              yourself of of  good meal,enjoy  and be happy.
+            </p>
+
+            <a href="#" class="button">
+              Order Now <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <img src="imagenes/spinach-leaf.png" alt="sushis" class="recently__data-img">
+          </div>
+
+          <img src="imagenes/recently-salmon-sushi.png" alt="sushi" class="recently__img">
+        </div>
+
+        <img src="imagenes/leaf-branch-3.png" alt="" class="recently__leaf-1">
+        <img src="imagenes/leaf-branch-4.png" alt="" class="recently__leaf-2">
+      </section>
+
+      <section class="newslette section">
+        <div class="newsletter__container container">
+          <div class="newsletter__content grid">
+            <img src="imagenes/newsletter-sushi.png" alt="newsletters" class="newsletter__img">
+
+            <div class="newsletter__data">
+              <span class="section__subtitle">Newsletter</span>
+              <h2 class="section__title">
+                Subscribe For <br>
+                Updates 
+             </h2>
+
+             <form class="newsletter__form">
+               <input type="email" class="newsletter__input" placeholder="Enter your email">
+               <button class="button newsletter__button">Suscribete <i class="fab fa-telegram-plane"></i></button>
+             </form>
+            </div>
+          </div>
+
+          <img src="imagenes/spinach-leaf.png" alt="" class="newsletter__spinach">
+        </div>
+      </section>
+  </main>
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <div>
+        <a href="#" class="footer__logo">
+          <img src="imagenes/logo.png" alt="logo">
+           Sushi
+        </a>
+
+        <p class="footer__description">
+          Food for the body is not <br>
+          enough. There must be food <br>
+          for the soul.
+        </p>
+      </div>
+
+      <div class="footer__content">
+
+        <div>
+          <h3 class="footer__title">Main Menu</h3>
+
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">About</a></li>
+            <li><a href="#" class="footer__link">Menus</a></li>
+            <li><a href="#" class="footer__link">Offer</a></li>
+            <li><a href="#" class="footer__link">Events</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Information</h3>
+
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Contact</a></li>
+            <li><a href="#" class="footer__link">Order  & Returns</a></li>
+            <li><a href="#" class="footer__link">Videos</a></li>
+            <li><a href="#" class="footer__link">Reservation</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title"></h3>
+
+          <ul class="footer__links">
+            <li class="footer__information">
+
+              Av.Venezuela 1234 <br>
+              Carabobo 1512,Venezuela
+
+            </li>
+
+            <li class="footer__information">
+
+              8AM - 12PM  
+
+            </li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Social Media</h3>
+
+          <ul class="footer__social">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </ul>
+        </div>
+
+      </div>
+
+
+      <img src="imagenes/spring-onion.png" alt="footer image" class="footer__onion">
+
+      <img src="imagenes/spinach-leaf.png" alt="footer image" class="footer__spinach">
+      
+      <img src="imagenes/leaf-branch-4.png" alt="footer image" class="footer__leaf">
+
+    </div>
+
+    <div class="footer__info container">
+      <div class="footer__card">
+        <img src="imagenes/footer-card-1.png" alt="footer image">
+        <img src="imagenes/footer-card-2.png" alt="footer image">
+        <img src="imagenes/footer-card-3.png" alt="footer image">
+        <img src="imagenes/footer-card-4.png" alt="footer image">
+      </div>
+
+      <span class="footer__copy">
+        &#169; CodeAg21.
+      </span>
+    </div>
+  </footer>
+
+  <!-- scroll up -->
+
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+   
+  <script src="reveal scrool.js"></script>
+  <script src="scrip.js" ></script>
+
+</body>
+
+</html>

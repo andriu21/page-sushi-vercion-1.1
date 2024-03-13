@@ -1,0 +1,16 @@
+{
+      "content":[{
+            "anime" : "SAO",
+            "url" : "https://sao.com"
+      },{
+            "anime" : "Boku No Hero",
+            "url" : "https://hero.com"
+      },{
+            "anime" : "Blech",
+            "url" : "https://Blech.com"
+      },{
+            "anime" : "Fate",
+            "url" : "https://Fate.com"
+      }
+      ]
+}
